@@ -1,0 +1,132 @@
+:root {
+    --black: #212529;
+    --white: #fff; 
+    --blue-main: #1c75bc;
+    --blue-accent: #0d567f;
+    --green-main: #4aa52e;
+    --green-accent: #156304;
+    --red-main: #f42535;
+    --red-accent: #8c2022;
+}
+
+html, body, #root, main  {
+    height: 100%;
+}
+
+html {
+    color: var(--white);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 62.5%;
+    height: 100%;
+}
+
+main {
+    align-items: center;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+.counter-container {
+    align-items: center;
+    display: flex;
+    width: 37rem
+}
+
+.score-container {
+    align-items: center;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+}
+
+.double-btn-container {
+    display: flex;
+    justify-content: space-between;  
+    width: 12rem;
+}
+
+.single-btn-left-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 12rem;
+}
+
+.single-btn-right-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 12rem;
+}
+
+.danger-zone-btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 37rem;
+}
+
+.btn {
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.4rem;
+    height: 5rem;
+}
+
+.btn--square { 
+    width: 5rem;
+}
+
+.btn--rect-l {
+    width: 37rem
+}
+
+.btn--rect-s {
+    width: 17.5rem
+}
+
+.btn--blue {
+    background-color: var(--blue-main);
+    border-top: .4rem solid var(--blue-main);
+    border-right: .4rem solid var(--blue-accent);
+    border-bottom: .4rem solid var(--blue-accent);
+    border-left: .4rem solid var(--blue-main);
+}
+
+.btn--green {
+    background-color: var(--green-main);
+    border-top: .4rem solid var(--green-main);
+    border-right: .4rem solid var(--green-accent);
+    border-bottom: .4rem solid var(--green-accent);
+    border-left: .4rem solid var(--green-main);;
+}
+
+.btn--red {
+    background-color: var(--red-main);
+    border-top: .4rem solid var(--red-main);
+    border-right: .4rem solid var(--red-accent);
+    border-bottom: .4rem solid var(--red-accent);
+    border-left: .4rem solid var(--red-main);;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin: 4rem 0;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+.score {
+    font-size: 4rem;
+    margin: .8rem 0 0 .5rem;
+}
