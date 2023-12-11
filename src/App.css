@@ -48,19 +48,19 @@ section {
 .double-btn-container {
     display: flex;
     justify-content: space-between;  
-    width: 12rem;
+    width: 13rem; 
 }
 
 .single-btn-left-container {
     display: flex;
     justify-content: flex-end;
-    width: 12rem;
+    width: 13rem; 
 }
 
 .single-btn-right-container {
     display: flex;
     justify-content: flex-start;
-    width: 12rem;
+    width: 13rem; 
 }
 
 .danger-zone-btn-container {
